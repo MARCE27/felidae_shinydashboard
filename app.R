@@ -84,7 +84,7 @@ ui <- dashboardPage(
     box(
       title = "Mapa de distribución",
       leafletOutput(outputId = "mapa"),
-      width = 6
+      width = 12
     ),
     box(
       title = "Registros de presencia",
